@@ -1,4 +1,4 @@
-package com.anzen.android.examenandroid.utils
+package com.anzen.android.examenandroid.models
 
 interface ResponseListener<T> {
     fun onSuccess(responseObject: T)
