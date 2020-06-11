@@ -7,6 +7,9 @@ class ListBikesDashboardContract {
 
     interface ListBikesDashboardInterface {
         fun getBikes(context: Context)
+        fun getNearbyBikes(context: Context)
+        fun getBikesAvailable(context: Context)
+        fun getSpacesAvailable(context: Context)
     }
 
     interface ViewInterface {

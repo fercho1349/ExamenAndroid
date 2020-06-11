@@ -14,6 +14,21 @@ class ListBikesDashboardPresenter (private var viewInterface: ListBikesDashboard
         jsonReaderHelper.getInfoBikes()
     }
 
+    override fun getNearbyBikes(context: Context) {
+        val jsonReaderHelper = JsonReaderHelper(context, this)
+        jsonReaderHelper.getNearbyBikes()
+    }
+
+    override fun getBikesAvailable(context: Context) {
+        val jsonReaderHelper = JsonReaderHelper(context, this)
+        jsonReaderHelper.getBikesAvailable()
+    }
+
+    override fun getSpacesAvailable(context: Context) {
+        val jsonReaderHelper = JsonReaderHelper(context, this)
+        jsonReaderHelper.getSpacesAvailable()
+    }
+
     override fun onSuccess(responseObject: ArrayList<Bikes>) {
         viewInterface.displayBikes(responseObject)
     }

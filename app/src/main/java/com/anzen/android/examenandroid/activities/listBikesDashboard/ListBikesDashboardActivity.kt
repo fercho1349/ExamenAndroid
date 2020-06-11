@@ -59,15 +59,15 @@ class ListBikesDashboardActivity : AppCompatActivity(), BaseAdapter.OnItemClickL
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {
             R.id.action_nearby -> {
-                listBikesDashboardPresenter.getBikes(this)
+                listBikesDashboardPresenter.getNearbyBikes(this)
                 true
             }
             R.id.action_bikes_available -> {
-                listBikesDashboardPresenter.getBikes(this)
+                listBikesDashboardPresenter.getBikesAvailable(this)
                 true
             }
             R.id.action_spaces_available -> {
-                listBikesDashboardPresenter.getBikes(this)
+                listBikesDashboardPresenter.getSpacesAvailable(this)
                 true
             }
             else -> super.onOptionsItemSelected(item)
