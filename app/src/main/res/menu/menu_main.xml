@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <item android:id="@+id/action_nearby"
+      android:title="@string/menu_nearby"
+      android:checked="true"/>
+
+  <item android:id="@+id/action_bikes_available"
+      android:title="@string/menu_bikes_available"
+      android:checked="false"/>
+
+  <item android:id="@+id/action_spaces_available"
+      android:title="@string/menu_spaces_available"
+      android:checked="false"/>
+
+</menu>

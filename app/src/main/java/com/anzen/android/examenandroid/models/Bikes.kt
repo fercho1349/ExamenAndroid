@@ -1,4 +1,4 @@
-package com.anzen.android.examenandroid
+package com.anzen.android.examenandroid.models
 
 import com.google.gson.annotations.SerializedName
 import java.io.Serializable

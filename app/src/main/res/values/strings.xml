@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">ExamenAndroid</string>
+    <string name="parsing_error">Error, intente de nuevo</string>
+    <string name="menu_nearby">Bicis Cercanas</string>
+    <string name="menu_bikes_available">Bicis Disponibles</string>
+    <string name="menu_spaces_available">Espacios Disponibles</string>
 </resources>

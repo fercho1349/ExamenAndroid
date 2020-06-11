@@ -1,10 +1,11 @@
-package com.anzen.android.examenandroid
+package com.anzen.android.examenandroid.activities.listBikesDashboard.holder
 
 import android.view.View
 import androidx.appcompat.widget.AppCompatTextView
+import com.anzen.android.examenandroid.base.BaseHolder
 import kotlinx.android.synthetic.main.item_bikes.view.*
 
-class ListBikesHolder (itemView: View) : BaseHolder(itemView) {
+class ListBikesDashboardHolder (itemView: View) : BaseHolder(itemView) {
 
     val textViewNameId = itemView.textViewNameId as AppCompatTextView
     val textViewName = itemView.textViewName as AppCompatTextView

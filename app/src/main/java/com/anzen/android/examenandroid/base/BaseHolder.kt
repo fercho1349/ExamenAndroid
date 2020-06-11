@@ -1,4 +1,4 @@
-package com.anzen.android.examenandroid
+package com.anzen.android.examenandroid.base
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
